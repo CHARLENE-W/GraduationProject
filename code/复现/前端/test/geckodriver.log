@@ -1,0 +1,2001 @@
+1649057153168	geckodriver	INFO	Listening on 127.0.0.1:38855
+1649057153168	geckodriver	INFO	Listening on 127.0.0.1:59181
+1649057154151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileeNx4zS"
+1649057154151	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileY5kfJB"
+1649057159013	Marionette	INFO	Marionette enabled
+1649057159013	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY5kfJB/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeNx4zS/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649057169013	Marionette	INFO	Listening on port 46321
+1649057169015	Marionette	INFO	Listening on port 46631
+1649057169477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649057169477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649057227260	Marionette	INFO	Stopped listening on port 46631
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649057227855	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-04-04T07:27:07Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "没有那个文件或目录" })) }
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649057228642	Marionette	INFO	Stopped listening on port 46321
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649057257431	geckodriver	INFO	Listening on 127.0.0.1:33131
+1649057257431	geckodriver	INFO	Listening on 127.0.0.1:41341
+1649057257438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileMJTl9i"
+1649057258449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilepeWiSD"
+1649057270682	Marionette	INFO	Marionette enabled
+1649057271084	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMJTl9i/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepeWiSD/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649057284608	Marionette	INFO	Listening on port 46705
+1649057284644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649057285115	Marionette	INFO	Listening on port 39703
+1649057285148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649057660698	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1649057661101	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649058022336	Marionette	INFO	Stopped listening on port 46705
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PRemoteWorkerService::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1649058025302	Marionette	INFO	Stopped listening on port 39703
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649058051404	geckodriver	INFO	Listening on 127.0.0.1:36897
+1649058051404	geckodriver	INFO	Listening on 127.0.0.1:59341
+1649058052417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--sandbox" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileSvUTtS"
+1649058052419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--sandbox" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileeCvTEc"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649058055762	Marionette	INFO	Marionette enabled
+1649058055762	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSvUTtS/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeCvTEc/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649058061672	Marionette	INFO	Listening on port 43603
+1649058061692	Marionette	INFO	Listening on port 37807
+1649058061823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649058061850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+1649058261933	geckodriver	INFO	Listening on 127.0.0.1:44689
+1649058261941	geckodriver	INFO	Listening on 127.0.0.1:37431
+1649058261943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--sandbox" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXhjvzA"
+1649058261950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--sandbox" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilea8dIdV"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649058265021	Marionette	INFO	Marionette enabled
+1649058265287	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXhjvzA/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea8dIdV/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649058269305	Marionette	INFO	Listening on port 42837
+1649058269431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649058269685	Marionette	INFO	Listening on port 36725
+1649058269800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/app.js line 5639 > eval, line 28: Error: Returned error: authentication needed: password or unlock
+JavaScript error: http://localhost:8081/app.js line 6196 > eval, line 28: Error: Returned error: authentication needed: password or unlock
+JavaScript error: http://localhost:8081/app.js line 6196 > eval, line 28: Error: Returned error: authentication needed: password or unlock
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1649058309226	geckodriver	INFO	Listening on 127.0.0.1:51727
+1649058309229	geckodriver	INFO	Listening on 127.0.0.1:58917
+1649058309251	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--sandbox" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezXZZcs"
+1649058309255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--sandbox" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiled2Mndy"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649058312596	Marionette	INFO	Marionette enabled
+1649058312626	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezXZZcs/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiled2Mndy/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649058317622	Marionette	INFO	Listening on port 34997
+1649058317711	Marionette	INFO	Listening on port 40813
+1649058317725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649058317815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+1649058702611	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1649058702641	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1649058885890	geckodriver	INFO	Listening on 127.0.0.1:43231
+1649058885893	geckodriver	INFO	Listening on 127.0.0.1:56263
+1649058885908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilePyEzW4"
+1649058885916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileC6bWNf"
+1649058890542	Marionette	INFO	Marionette enabled
+1649058890662	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC6bWNf/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePyEzW4/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649058898320	Marionette	INFO	Listening on port 46553
+1649058898465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649058898690	Marionette	INFO	Listening on port 36023
+1649058898804	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 324: TypeError: this is undefined
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+1649058954266	Marionette	INFO	Stopped listening on port 46553
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649058955694	Marionette	INFO	Stopped listening on port 36023
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649058956215	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 963: Error: Error(s) encountered during statement execution: disk I/O error
+[2022-04-04T07:55:56Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "没有那个文件或目录" })) }
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649059001187	geckodriver	INFO	Listening on 127.0.0.1:39275
+1649059001189	geckodriver	INFO	Listening on 127.0.0.1:47815
+1649059001234	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilebGhq6Z"
+1649059002193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilekUWgd1"
+1649059007215	Marionette	INFO	Marionette enabled
+1649059007217	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekUWgd1/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebGhq6Z/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1649059017508	Marionette	INFO	Listening on port 33053
+1649059017580	Marionette	INFO	Listening on port 39331
+1649059017782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649059017786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+1649059098600	Marionette	INFO	Stopped listening on port 39331
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649059099814	Marionette	INFO	Stopped listening on port 33053
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649059100329	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 963: Error: Error(s) encountered during statement execution: disk I/O error
+[2022-04-04T07:58:20Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "没有那个文件或目录" })) }
+1649059264161	geckodriver	INFO	Listening on 127.0.0.1:55197
+1649059264162	geckodriver	INFO	Listening on 127.0.0.1:38465
+1649059265186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqZClXT"
+1649059265186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileeU948o"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649059268454	Marionette	INFO	Marionette enabled
+1649059268463	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqZClXT/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeU948o/search.json.mozlz4", (void 0)))
+1649059274741	Marionette	INFO	Listening on port 46691
+1649059274951	Marionette	INFO	Listening on port 38345
+1649059274958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649059275138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+1649059716380	geckodriver	INFO	Listening on 127.0.0.1:34623
+1649059716384	geckodriver	INFO	Listening on 127.0.0.1:45429
+1649059717451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileghEEq7"
+1649059717451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerqmDgl"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649059726065	Marionette	INFO	Marionette enabled
+1649059726066	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerqmDgl/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileghEEq7/search.json.mozlz4", (void 0)))
+1649059736355	Marionette	INFO	Listening on port 40469
+1649059736428	Marionette	INFO	Listening on port 41215
+1649059736617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649059736619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8081/app.js line 4067 > eval, line 169: Error: invalid arrayify value (argument="value", value="0000000000000000000000000000000000000000000000000000000000000000", code=INVALID_ARGUMENT, version=bytes/5.0.9)
+JavaScript error: http://localhost:8080/app.js line 5639 > eval, line 87: Error: Transaction has been reverted by the EVM:
+{
+  "blockHash": "0x7aa5ade4919f7ee59bbf6215a8e7073fd557123c6ed0d87bce1dc260f199d771",
+  "blockNumber": 16699,
+  "contractAddress": null,
+  "cumulativeGasUsed": 2097827,
+  "from": "0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+  "gasUsed": 500000,
+  "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "position": "",
+  "status": false,
+  "to": "0x3f7ee5d2c4d6b5cefb363f1792e80e35279ba0a0",
+  "transactionHash": "0x81fe6d72cbf07ece7d60bc6b668b380a998dfa3a968c1a1e285825467bcbb934",
+  "transactionIndex": 3,
+  "events": {}
+}
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 117: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+1649059971214	geckodriver	INFO	Listening on 127.0.0.1:35485
+1649059971214	geckodriver	INFO	Listening on 127.0.0.1:58303
+1649059975316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile4Mxx8X"
+1649059975866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileRqIoaX"
+1649060653618	Marionette	INFO	Stopped listening on port 38345
+1649060653635	Marionette	INFO	Stopped listening on port 46691
+1649060653847	Marionette	INFO	Stopped listening on port 40469
+1649060653848	Marionette	INFO	Stopped listening on port 41215
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_GraphicsError) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1649061019836	geckodriver	INFO	Listening on 127.0.0.1:54895
+1649061019836	geckodriver	INFO	Listening on 127.0.0.1:46531
+1649061020998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileiV199O"
+1649061020999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelg329Q"
+1649061079088	Marionette	INFO	Marionette enabled
+1649061079088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiV199O/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelg329Q/search.json.mozlz4", (void 0)))
+1649061091957	Marionette	INFO	Listening on port 42081
+1649061091987	Marionette	INFO	Listening on port 46775
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1649061182710	geckodriver	INFO	Listening on 127.0.0.1:58525
+1649061182724	geckodriver	INFO	Listening on 127.0.0.1:46379
+1649061182728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileCESPoc"
+1649061182736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileou0OYz"
+1649061186248	Marionette	INFO	Marionette enabled
+1649061186594	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileou0OYz/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCESPoc/search.json.mozlz4", (void 0)))
+1649061191853	Marionette	INFO	Listening on port 44961
+1649061192116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649061192270	Marionette	INFO	Listening on port 40175
+1649061192365	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649061325285	Marionette	INFO	Stopped listening on port 44961
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649061326828	Marionette	INFO	Stopped listening on port 40175
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649061504691	geckodriver	INFO	Listening on 127.0.0.1:52647
+1649061504699	geckodriver	INFO	Listening on 127.0.0.1:50533
+1649061504703	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilelAhH2A"
+1649061504705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile7Ru2xe"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649061508013	Marionette	INFO	Marionette enabled
+1649061508326	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7Ru2xe/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelAhH2A/search.json.mozlz4", (void 0)))
+1649061513630	Marionette	INFO	Listening on port 35989
+1649061513754	Marionette	INFO	Listening on port 38993
+1649061513861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649061513940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+1649061692147	geckodriver	INFO	Listening on 127.0.0.1:48915
+1649061692155	geckodriver	INFO	Listening on 127.0.0.1:43817
+1649061692165	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileMkSJMW"
+1649061692165	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenxRIJr"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649061694958	Marionette	INFO	Marionette enabled
+1649061695066	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenxRIJr/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMkSJMW/search.json.mozlz4", (void 0)))
+1649061700658	Marionette	INFO	Listening on port 33597
+1649061700808	Marionette	INFO	Listening on port 36225
+1649061700827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649061700945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 1450: TypeError: geohash is undefined
+1649061766797	geckodriver	INFO	Listening on 127.0.0.1:34705
+1649061766797	geckodriver	INFO	Listening on 127.0.0.1:60587
+1649061767800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQR09iy"
+1649061767800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilebLXpqY"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649061770888	Marionette	INFO	Marionette enabled
+1649061771240	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQR09iy/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebLXpqY/search.json.mozlz4", (void 0)))
+1649061777298	Marionette	INFO	Listening on port 44601
+1649061777518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649061777599	Marionette	INFO	Listening on port 43523
+1649061777730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 5623: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+1649061900154	geckodriver	INFO	Listening on 127.0.0.1:60123
+1649061900163	geckodriver	INFO	Listening on 127.0.0.1:58045
+1649061900172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepeWWUG"
+1649061900176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6rpLA7"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649061902886	Marionette	INFO	Marionette enabled
+1649061903158	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6rpLA7/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepeWWUG/search.json.mozlz4", (void 0)))
+1649061908039	Marionette	INFO	Listening on port 46849
+1649061908205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649061908941	Marionette	INFO	Listening on port 44921
+1649061909041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+1649062024846	geckodriver	INFO	Listening on 127.0.0.1:54919
+1649062024846	geckodriver	INFO	Listening on 127.0.0.1:38991
+1649062025372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexuRISp"
+1649062025375	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepJnnOr"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649062031168	Marionette	INFO	Marionette enabled
+1649062031168	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepJnnOr/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexuRISp/search.json.mozlz4", (void 0)))
+1649062037356	Marionette	INFO	Listening on port 45809
+1649062038052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649062038525	Marionette	INFO	Listening on port 35615
+1649062038757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 324: TypeError: this is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 92: TypeError: event.returnValues is undefined
+1649062220760	geckodriver	INFO	Listening on 127.0.0.1:46129
+1649062220760	geckodriver	INFO	Listening on 127.0.0.1:39117
+1649062228109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilex8cypn"
+1649062228110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileppq5IM"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649062480302	geckodriver	INFO	Listening on 127.0.0.1:47545
+1649062480305	geckodriver	INFO	Listening on 127.0.0.1:36295
+1649062481464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileTsPtg8"
+1649062481464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXvbvnX"
+1649062492491	Marionette	INFO	Marionette enabled
+1649062492491	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTsPtg8/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXvbvnX/search.json.mozlz4", (void 0)))
+1649062527872	Marionette	INFO	Listening on port 36917
+1649062527872	Marionette	INFO	Listening on port 41599
+1649062531970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649062531971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 324: TypeError: this is undefined
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+1649062653537	Marionette	INFO	Stopped listening on port 36917
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 148: TypeError: event.returnValues is undefined
+1649062691140	Marionette	INFO	Stopped listening on port 41599
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649062775678	Marionette	INFO	Stopped listening on port 35989
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649062777682	Marionette	INFO	Stopped listening on port 38993
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilelAhH2A/protections.sqlite
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649062881866	Marionette	INFO	Stopped listening on port 35615
+1649062881918	Marionette	INFO	Stopped listening on port 46849
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1649062882177	Marionette	INFO	Stopped listening on port 43523
+1649062882292	Marionette	INFO	Stopped listening on port 45809
+1649062882344	Marionette	INFO	Stopped listening on port 44601
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1649062882934	Marionette	INFO	Stopped listening on port 44921
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofilepeWWUG/protections.sqlite
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649063113374	geckodriver	INFO	Listening on 127.0.0.1:37353
+1649063113374	geckodriver	INFO	Listening on 127.0.0.1:42107
+1649063114420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile5Ff65G"
+1649063114423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3xKiZH"
+1649063120384	Marionette	INFO	Marionette enabled
+1649063120386	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5Ff65G/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3xKiZH/search.json.mozlz4", (void 0)))
+1649063132927	Marionette	INFO	Listening on port 35579
+1649063133001	Marionette	INFO	Listening on port 42775
+1649063133057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649063133138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+1649063288079	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://csdnimg.cn/release/blogv2/dist/pc/js/detail-6c785177b4.min.js, line 6: TypeError: events[system()] is undefined
+JavaScript error: https://g.csdnimg.cn/tingyun/1.8.5/blog.js, line 1: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xnyDcLTJFFqRrOSh_tGs93TmBGWOIlQl9rUvBjKFBOc.js line 1 > eval line 1011 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1649063724684	Marionette	INFO	Stopped listening on port 42775
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1649063726597	Marionette	INFO	Stopped listening on port 35579
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1649064161647	geckodriver	INFO	Listening on 127.0.0.1:34739
+1649064161659	geckodriver	INFO	Listening on 127.0.0.1:39559
+1649064161663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilet82iUz"
+1649064161668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilejAe0jU"
+1649064165217	Marionette	INFO	Marionette enabled
+1649064165264	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejAe0jU/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet82iUz/search.json.mozlz4", (void 0)))
+1649064171260	Marionette	INFO	Listening on port 42497
+1649064171414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649064172084	Marionette	INFO	Listening on port 45441
+1649064172243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 392: ReferenceError: isboard is not defined
+1649064206412	Marionette	INFO	Stopped listening on port 42497
+1649064228571	Marionette	INFO	Stopped listening on port 45441
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1649064286962	geckodriver	INFO	Listening on 127.0.0.1:58591
+1649064286977	geckodriver	INFO	Listening on 127.0.0.1:46419
+1649064286982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWgHgM8"
+1649064286983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyE2EpR"
+1649064290433	Marionette	INFO	Marionette enabled
+1649064290694	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWgHgM8/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyE2EpR/search.json.mozlz4", (void 0)))
+1649064296305	Marionette	INFO	Listening on port 33423
+1649064296826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649064296830	Marionette	INFO	Listening on port 43445
+1649064296977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 392: ReferenceError: isboard is not defined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+1649064557615	geckodriver	INFO	Listening on 127.0.0.1:46591
+1649064557616	geckodriver	INFO	Listening on 127.0.0.1:48721
+1649064557642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileiFKYxF"
+1649064557644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileVLMGTF"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649064560521	Marionette	INFO	Marionette enabled
+1649064560967	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVLMGTF/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiFKYxF/search.json.mozlz4", (void 0)))
+1649064567217	Marionette	INFO	Listening on port 46145
+1649064567395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649064568249	Marionette	INFO	Listening on port 46687
+1649064568474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649064756333	Marionette	INFO	Stopped listening on port 46687
+1649064756390	Marionette	INFO	Stopped listening on port 46145
+1649064756426	Marionette	INFO	Stopped listening on port 43445
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1649064756553	Marionette	INFO	Stopped listening on port 33423
+console.warn: "IGNORED REDUX ACTION:" "AUTOCOMPLETE_CLEAR"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileWgHgM8/protections.sqlite
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PRemoteWorkerService::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1649065384588	geckodriver	INFO	Listening on 127.0.0.1:36703
+1649065384590	geckodriver	INFO	Listening on 127.0.0.1:54911
+1649065384598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQSSVGn"
+1649065384601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileb2h2Ny"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649065387875	Marionette	INFO	Marionette enabled
+1649065387926	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb2h2Ny/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQSSVGn/search.json.mozlz4", (void 0)))
+1649065393550	Marionette	INFO	Listening on port 44335
+1649065393605	Marionette	INFO	Listening on port 37045
+1649065393743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649065393767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649065626353	Marionette	INFO	Stopped listening on port 44335
+1649065626360	Marionette	INFO	Stopped listening on port 37045
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649065634859	geckodriver	INFO	Listening on 127.0.0.1:48681
+1649065634872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexMKJGr"
+1649065634887	geckodriver	INFO	Listening on 127.0.0.1:59661
+*** You are running in headless mode.
+1649065635893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileYsEbxA"
+*** You are running in headless mode.
+1649065637412	Marionette	INFO	Marionette enabled
+1649065639213	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexMKJGr/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYsEbxA/search.json.mozlz4", (void 0)))
+1649065642661	Marionette	INFO	Listening on port 44111
+1649065642848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649065644986	Marionette	INFO	Listening on port 41631
+1649065645093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 159: TypeError: event.returnValues is undefined
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649065815551	Marionette	INFO	Stopped listening on port 44111
+1649065815552	Marionette	INFO	Stopped listening on port 41631
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649065823596	geckodriver	INFO	Listening on 127.0.0.1:34963
+1649065823603	geckodriver	INFO	Listening on 127.0.0.1:59531
+1649065823608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKOTOBM"
+1649065823616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile287seZ"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649065827093	Marionette	INFO	Marionette enabled
+1649065827208	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKOTOBM/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile287seZ/search.json.mozlz4", (void 0)))
+1649065832265	Marionette	INFO	Listening on port 43437
+1649065832389	Marionette	INFO	Listening on port 43551
+1649065832397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649065832637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649066153320	Marionette	INFO	Stopped listening on port 43437
+1649066153330	Marionette	INFO	Stopped listening on port 43551
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1649066166956	geckodriver	INFO	Listening on 127.0.0.1:50429
+1649066166963	geckodriver	INFO	Listening on 127.0.0.1:39813
+1649066166976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile8rw0n8"
+*** You are running in headless mode.
+1649066167969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileueNBvb"
+*** You are running in headless mode.
+1649066169941	Marionette	INFO	Marionette enabled
+1649066171462	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8rw0n8/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileueNBvb/search.json.mozlz4", (void 0)))
+1649066175400	Marionette	INFO	Listening on port 35411
+1649066175531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066177289	Marionette	INFO	Listening on port 33627
+1649066177382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649066326167	Marionette	INFO	Stopped listening on port 33627
+1649066326195	Marionette	INFO	Stopped listening on port 35411
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1649066353337	geckodriver	INFO	Listening on 127.0.0.1:35745
+1649066353338	geckodriver	INFO	Listening on 127.0.0.1:57757
+1649066353343	geckodriver	INFO	Listening on 127.0.0.1:43703
+1649066353343	geckodriver	INFO	Listening on 127.0.0.1:33387
+1649066353350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileI2JLSn"
+1649066353352	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile2T9ZmI"
+1649066353356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenjmLdn"
+1649066353360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileua9raS"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649066357032	Marionette	INFO	Marionette enabled
+1649066357117	Marionette	INFO	Marionette enabled
+1649066357142	Marionette	INFO	Marionette enabled
+1649066357234	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2T9ZmI/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileua9raS/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenjmLdn/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI2JLSn/search.json.mozlz4", (void 0)))
+1649066364184	Marionette	INFO	Listening on port 39233
+1649066364243	Marionette	INFO	Listening on port 44151
+1649066364330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066364371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066364735	Marionette	INFO	Listening on port 44147
+1649066364859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066364872	Marionette	INFO	Listening on port 46239
+1649066365118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649066534249	Marionette	INFO	Stopped listening on port 46239
+1649066534271	Marionette	INFO	Stopped listening on port 44151
+1649066534278	Marionette	INFO	Stopped listening on port 39233
+1649066534308	Marionette	INFO	Stopped listening on port 44147
+1649066543607	geckodriver	INFO	Listening on 127.0.0.1:56385
+1649066543607	geckodriver	INFO	Listening on 127.0.0.1:49241
+1649066543611	geckodriver	INFO	Listening on 127.0.0.1:60933
+1649066543621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileSoAusn"
+1649066543628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezJEPXr"
+1649066543628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiled9MTAH"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649066546731	Marionette	INFO	Marionette enabled
+1649066547433	Marionette	INFO	Marionette enabled
+1649066547451	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezJEPXr/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSoAusn/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiled9MTAH/search.json.mozlz4", (void 0)))
+1649066553387	Marionette	INFO	Listening on port 36125
+1649066553528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066554526	Marionette	INFO	Listening on port 37173
+1649066554647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066555478	Marionette	INFO	Listening on port 33317
+1649066555631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 88: TypeError: event.returnValues is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 92: TypeError: event.returnValues is undefined
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649066703687	Marionette	INFO	Stopped listening on port 33317
+1649066703687	Marionette	INFO	Stopped listening on port 37173
+1649066703694	Marionette	INFO	Stopped listening on port 36125
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649066711812	geckodriver	INFO	Listening on 127.0.0.1:54413
+1649066711814	geckodriver	INFO	Listening on 127.0.0.1:35233
+1649066711815	geckodriver	INFO	Listening on 127.0.0.1:39393
+1649066711822	geckodriver	INFO	Listening on 127.0.0.1:41501
+1649066711826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEAcua9"
+1649066711830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileZT0kKQ"
+1649066711834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewla0i3"
+1649066711836	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile0gdO3K"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649066715292	Marionette	INFO	Marionette enabled
+1649066715902	Marionette	INFO	Marionette enabled
+1649066716112	Marionette	INFO	Marionette enabled
+1649066716132	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0gdO3K/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewla0i3/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZT0kKQ/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEAcua9/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649066723397	Marionette	INFO	Listening on port 45389
+1649066723584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649066724841	Marionette	INFO	Listening on port 40819
+1649066725057	Marionette	INFO	Listening on port 41551
+1649066725087	Marionette	INFO	Listening on port 44289
+1649066725123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066725192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649066725267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649066967461	Marionette	INFO	Stopped listening on port 44289
+1649066967481	Marionette	INFO	Stopped listening on port 41551
+1649066967498	Marionette	INFO	Stopped listening on port 45389
+1649066967529	Marionette	INFO	Stopped listening on port 40819
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PCompositorBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649068367011	geckodriver	INFO	Listening on 127.0.0.1:57901
+1649068367011	geckodriver	INFO	Listening on 127.0.0.1:45353
+1649068367011	geckodriver	INFO	Listening on 127.0.0.1:32851
+1649068367011	geckodriver	INFO	Listening on 127.0.0.1:43615
+1649068367011	geckodriver	INFO	Listening on 127.0.0.1:57427
+1649068367011	geckodriver	INFO	Listening on 127.0.0.1:41037
+1649068367013	geckodriver	INFO	Listening on 127.0.0.1:43243
+1649068367013	geckodriver	INFO	Listening on 127.0.0.1:57767
+1649068368019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewWBXHK"
+1649068368033	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile75Er9v"
+1649068368036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilelMzu8g"
+1649068368039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenskoeQ"
+1649068368065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEUh5aI"
+1649068368066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilecadx55"
+1649068368066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewhVshW"
+1649068368066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilel2P1e6"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649068387444	Marionette	INFO	Marionette enabled
+1649068387444	Marionette	INFO	Marionette enabled
+1649068387444	Marionette	INFO	Marionette enabled
+1649068387444	Marionette	INFO	Marionette enabled
+1649068387444	Marionette	INFO	Marionette enabled
+1649068387445	Marionette	INFO	Marionette enabled
+1649068387445	Marionette	INFO	Marionette enabled
+1649068387446	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile75Er9v/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel2P1e6/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelMzu8g/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecadx55/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEUh5aI/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewhVshW/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenskoeQ/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewWBXHK/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649068408239	Marionette	INFO	Listening on port 36113
+1649068408328	Marionette	INFO	Listening on port 45853
+1649068408329	Marionette	INFO	Listening on port 38171
+1649068408356	Marionette	INFO	Listening on port 37915
+1649068408367	Marionette	INFO	Listening on port 42551
+1649068408392	Marionette	INFO	Listening on port 43973
+1649068408457	Marionette	INFO	Listening on port 38219
+1649068408554	Marionette	INFO	Listening on port 32909
+1649068408914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068408915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068408916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068408917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068408919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068408921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068408954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068408969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 324: TypeError: this is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 324: TypeError: this is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 324: TypeError: this is undefined
+JavaScript error: http://localhost:8081/app.js line 893 > eval, line 324: TypeError: this is undefined
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649068591942	Marionette	INFO	Stopped listening on port 36113
+1649068591966	Marionette	INFO	Stopped listening on port 42551
+1649068591967	Marionette	INFO	Stopped listening on port 37915
+1649068591974	Marionette	INFO	Stopped listening on port 45853
+1649068592003	Marionette	INFO	Stopped listening on port 38171
+1649068592029	Marionette	INFO	Stopped listening on port 32909
+1649068592099	Marionette	INFO	Stopped listening on port 43973
+1649068592114	Marionette	INFO	Stopped listening on port 38219
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PCompositorBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PCompositorBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649068604039	geckodriver	INFO	Listening on 127.0.0.1:55777
+1649068604043	geckodriver	INFO	Listening on 127.0.0.1:48249
+1649068604051	geckodriver	INFO	Listening on 127.0.0.1:38233
+1649068604057	geckodriver	INFO	Listening on 127.0.0.1:50633
+1649068604085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKffVIO"
+1649068604090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilejBogzs"
+1649068604094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile9bh1Hv"
+1649068604097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekQOMb1"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649068607264	Marionette	INFO	Marionette enabled
+1649068608045	Marionette	INFO	Marionette enabled
+1649068608277	Marionette	INFO	Marionette enabled
+1649068608312	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9bh1Hv/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekQOMb1/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejBogzs/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKffVIO/search.json.mozlz4", (void 0)))
+1649068613767	Marionette	INFO	Listening on port 41103
+1649068613875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649068617381	Marionette	INFO	Listening on port 44795
+1649068617693	Marionette	INFO	Listening on port 44849
+1649068617747	Marionette	INFO	Listening on port 40275
+1649068617834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068618292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068618319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649068755733	Marionette	INFO	Stopped listening on port 44849
+1649068755796	Marionette	INFO	Stopped listening on port 44795
+1649068755807	Marionette	INFO	Stopped listening on port 40275
+1649068755839	Marionette	INFO	Stopped listening on port 41103
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PCompositorManagerParent] Error: RunMessage(msgname=PCompositorBridge::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649068764600	geckodriver	INFO	Listening on 127.0.0.1:56865
+1649068764607	geckodriver	INFO	Listening on 127.0.0.1:39693
+1649068764609	geckodriver	INFO	Listening on 127.0.0.1:35409
+1649068764611	geckodriver	INFO	Listening on 127.0.0.1:55371
+1649068764619	geckodriver	INFO	Listening on 127.0.0.1:50343
+1649068764643	geckodriver	INFO	Listening on 127.0.0.1:49611
+1649068764667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile1RdkyD"
+1649068764667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezpUfq0"
+1649068764667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile88VXBU"
+1649068764667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilebcBBKA"
+1649068764671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile0KuXHa"
+1649068764673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilele7ppA"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649068768924	Marionette	INFO	Marionette enabled
+1649068769358	Marionette	INFO	Marionette enabled
+1649068769593	Marionette	INFO	Marionette enabled
+1649068769612	Marionette	INFO	Marionette enabled
+1649068769618	Marionette	INFO	Marionette enabled
+1649068769649	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile88VXBU/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezpUfq0/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilele7ppA/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0KuXHa/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebcBBKA/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1RdkyD/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649068778180	Marionette	INFO	Listening on port 45799
+1649068778380	Marionette	INFO	Listening on port 45667
+1649068778562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068778646	Marionette	INFO	Listening on port 40527
+1649068778836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068779068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068779364	Marionette	INFO	Listening on port 37151
+1649068779587	Marionette	INFO	Listening on port 39847
+1649068779614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068779625	Marionette	INFO	Listening on port 37105
+1649068779989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649068780123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 375: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649069094049	Marionette	INFO	Stopped listening on port 45799
+1649069094049	Marionette	INFO	Stopped listening on port 39847
+1649069094053	Marionette	INFO	Stopped listening on port 40527
+1649069094054	Marionette	INFO	Stopped listening on port 37105
+1649069094056	Marionette	INFO	Stopped listening on port 45667
+1649069094056	Marionette	INFO	Stopped listening on port 37151
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"RemoteSettingsClient - finish IDB access.","state":["importChanges() in security-state/intermediates"],"filename":"resource://services-settings/Database.jsm","lineNumber":472,"stack":["resource://services-settings/Database.jsm:ensureShutdownBlocker:472","resource://services-settings/Database.jsm:Database:28","resource://services-settings/RemoteSettingsClient.jsm:RemoteSettingsClient/<:286","resource://gre/modules/XPCOMUtils.jsm:get:62","resource://services-settings/RemoteSettingsClient.jsm:get:361","resource://gre/modules/Blocklist.jsm:_updateMLBF/updatePromise<:1012","resource://gre/modules/Blocklist.jsm:_updateMLBF:1049","resource://gre/modules/Blocklist.jsm:getEntry:1184","resource://gre/modules/Blocklist.jsm:getAddonBlocklistEntry:1452","resource://gre/modules/addons/XPIDatabase.jsm:findBlocklistEntry:609","resource://gre/modules/addons/XPIDatabase.jsm:updateBlocklistState:621","resource://gre/modules/addons/XPIInstall.jsm:loadManifest:702","resource://gre/modules/addons/XPIProvider.jsm:awaitPromise:219","resource://gre/modules/addons/XPIInstall.jsm:syncLoadManifest:757","resource://gre/modules/addons/XPIDatabase.jsm:addMetadata:2925","resource://gre/modules/addons/XPIDatabase.jsm:processFileChanges:3390","resource://gre/modules/addons/XPIProvider.jsm:checkForChanges:3052","resource://gre/modules/addons/XPIProvider.jsm:startup:2479","resource://gre/modules/AddonManager.jsm:callProvider:222","resource://gre/modules/AddonManager.jsm:_startProvider:528","resource://gre/modules/AddonManager.jsm:startup:755","resource://gre/modules/AddonManager.jsm:startup:3393","resource://gre/modules/addonManager.js:observe:78"]}] Barrier: profile-before-change
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 443))
+console.error: services.settings: 
+  Message: Error: IndexedDB: security-state/intermediates list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    IndexedDBError@resource://services-settings/IDBHelpers.jsm:22:15
+ShutdownError@resource://services-settings/IDBHelpers.jsm:32:5
+executeIDB@resource://services-settings/Database.jsm:354:13
+list@resource://services-settings/Database.jsm:36:13
+_importChanges@resource://services-settings/RemoteSettingsClient.jsm:954:36
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649069241990	geckodriver	INFO	Listening on 127.0.0.1:33815
+1649069241990	geckodriver	INFO	Listening on 127.0.0.1:51071
+1649069241990	geckodriver	INFO	Listening on 127.0.0.1:47483
+1649069241991	geckodriver	INFO	Listening on 127.0.0.1:47953
+1649069241991	geckodriver	INFO	Listening on 127.0.0.1:60103
+1649069241991	geckodriver	INFO	Listening on 127.0.0.1:60489
+1649069241991	geckodriver	INFO	Listening on 127.0.0.1:37585
+1649069241991	geckodriver	INFO	Listening on 127.0.0.1:60273
+1649069243040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepVgP1C"
+1649069243049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileu3s6M7"
+1649069243050	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilei0Q1lB"
+1649069243050	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileAhoZ4D"
+1649069243053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKgRfDE"
+1649069243053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileK813kv"
+1649069243055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile5HBE6z"
+1649069243064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQOcMai"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649069255453	Marionette	INFO	Marionette enabled
+1649069255453	Marionette	INFO	Marionette enabled
+1649069255454	Marionette	INFO	Marionette enabled
+1649069255454	Marionette	INFO	Marionette enabled
+1649069255456	Marionette	INFO	Marionette enabled
+1649069255456	Marionette	INFO	Marionette enabled
+1649069255457	Marionette	INFO	Marionette enabled
+1649069255457	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileK813kv/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu3s6M7/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAhoZ4D/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepVgP1C/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5HBE6z/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKgRfDE/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei0Q1lB/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQOcMai/search.json.mozlz4", (void 0)))
+1649069277191	Marionette	INFO	Listening on port 39915
+1649069277208	Marionette	INFO	Listening on port 46547
+1649069277209	Marionette	INFO	Listening on port 37667
+1649069277235	Marionette	INFO	Listening on port 42075
+1649069277330	Marionette	INFO	Listening on port 36217
+1649069277331	Marionette	INFO	Listening on port 46725
+1649069277335	Marionette	INFO	Listening on port 37651
+1649069277387	Marionette	INFO	Listening on port 34533
+1649069277920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069277920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069277920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069277920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069277922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069277927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069277931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069277945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069279259	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649069279311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649069279313	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1649069420507	geckodriver	INFO	Listening on 127.0.0.1:34057
+1649069420524	geckodriver	INFO	Listening on 127.0.0.1:36477
+1649069420524	geckodriver	INFO	Listening on 127.0.0.1:52869
+1649069420528	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilesRxHLi"
+1649069420533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileBcaW3w"
+1649069420533	geckodriver	INFO	Listening on 127.0.0.1:47907
+1649069420542	geckodriver	INFO	Listening on 127.0.0.1:49727
+1649069420547	geckodriver	INFO	Listening on 127.0.0.1:49081
+1649069420552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileVk8G89"
+1649069420554	geckodriver	INFO	Listening on 127.0.0.1:36237
+1649069420557	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilecRgoQq"
+1649069420568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQY94F3"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649069421524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilehomNR7"
+1649069421542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilecblbXi"
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649069425535	Marionette	INFO	Marionette enabled
+1649069425586	Marionette	INFO	Marionette enabled
+1649069425596	Marionette	INFO	Marionette enabled
+1649069425617	Marionette	INFO	Marionette enabled
+1649069425620	Marionette	INFO	Marionette enabled
+1649069426069	Marionette	INFO	Marionette enabled
+1649069426094	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesRxHLi/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVk8G89/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecRgoQq/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecblbXi/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBcaW3w/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQY94F3/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehomNR7/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649069436812	Marionette	INFO	Listening on port 38017
+1649069437033	Marionette	INFO	Listening on port 43277
+1649069437102	Marionette	INFO	Listening on port 43441
+1649069437152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069437291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069437398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069437410	Marionette	INFO	Listening on port 38063
+1649069437447	Marionette	INFO	Listening on port 44639
+1649069437858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069437941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069438127	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649069438473	Marionette	INFO	Listening on port 45753
+1649069438596	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649069438723	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649069438951	Marionette	INFO	Listening on port 41333
+1649069439013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069440060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069572966	geckodriver	INFO	Listening on 127.0.0.1:47343
+1649069572966	geckodriver	INFO	Listening on 127.0.0.1:37865
+1649069572966	geckodriver	INFO	Listening on 127.0.0.1:48045
+1649069572966	geckodriver	INFO	Listening on 127.0.0.1:44701
+1649069572966	geckodriver	INFO	Listening on 127.0.0.1:50665
+1649069572966	geckodriver	INFO	Listening on 127.0.0.1:50121
+1649069575197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKVZqGv"
+1649069575238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevYT95j"
+1649069575328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilem1sx59"
+1649069575376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3eVV1g"
+1649069575412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileY6DnGT"
+1649069575428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevii5Cg"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649069587030	Marionette	INFO	Marionette enabled
+1649069587030	Marionette	INFO	Marionette enabled
+1649069587030	Marionette	INFO	Marionette enabled
+1649069587031	Marionette	INFO	Marionette enabled
+1649069587031	Marionette	INFO	Marionette enabled
+1649069587031	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevii5Cg/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKVZqGv/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY6DnGT/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3eVV1g/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevYT95j/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem1sx59/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649069601830	Marionette	INFO	Listening on port 34845
+1649069601841	Marionette	INFO	Listening on port 35639
+1649069601884	Marionette	INFO	Listening on port 37773
+1649069602054	Marionette	INFO	Listening on port 40913
+1649069602163	Marionette	INFO	Listening on port 38493
+1649069602234	Marionette	INFO	Listening on port 41979
+1649069602322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069602322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069602326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069602345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069602345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069602350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069602805	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649069602832	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649069603033	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649069748049	Marionette	INFO	Stopped listening on port 43277
+1649069748088	Marionette	INFO	Stopped listening on port 38493
+1649069748091	Marionette	INFO	Stopped listening on port 38017
+1649069748110	Marionette	INFO	Stopped listening on port 44639
+1649069748111	Marionette	INFO	Stopped listening on port 41979
+1649069748113	Marionette	INFO	Stopped listening on port 38063
+1649069748134	Marionette	INFO	Stopped listening on port 34845
+1649069748138	Marionette	INFO	Stopped listening on port 35639
+1649069748142	Marionette	INFO	Stopped listening on port 40913
+1649069748148	Marionette	INFO	Stopped listening on port 43441
+1649069748148	Marionette	INFO	Stopped listening on port 41333
+1649069748149	Marionette	INFO	Stopped listening on port 45753
+1649069748155	Marionette	INFO	Stopped listening on port 37773
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PBackgroundParent] Error: Send(msgname=PBackgroundLSDatabase::Msg_RequestAllowToClose) Channel error: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649069796650	geckodriver	INFO	Listening on 127.0.0.1:44521
+1649069796650	geckodriver	INFO	Listening on 127.0.0.1:42553
+1649069796650	geckodriver	INFO	Listening on 127.0.0.1:59477
+1649069796650	geckodriver	INFO	Listening on 127.0.0.1:33997
+1649069796650	geckodriver	INFO	Listening on 127.0.0.1:52547
+1649069796653	geckodriver	INFO	Listening on 127.0.0.1:46187
+1649069797700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilep3bf9J"
+1649069797703	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenl9KTo"
+1649069797704	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileu93BwR"
+1649069797705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileaPo72e"
+1649069797707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileIrz1N5"
+1649069797710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileHczO0x"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649069807476	Marionette	INFO	Marionette enabled
+1649069807476	Marionette	INFO	Marionette enabled
+1649069807476	Marionette	INFO	Marionette enabled
+1649069807476	Marionette	INFO	Marionette enabled
+1649069807477	Marionette	INFO	Marionette enabled
+1649069807478	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenl9KTo/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaPo72e/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilep3bf9J/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIrz1N5/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu93BwR/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHczO0x/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649069824883	Marionette	INFO	Listening on port 39753
+1649069824928	Marionette	INFO	Listening on port 35571
+1649069824950	Marionette	INFO	Listening on port 42457
+1649069824972	Marionette	INFO	Listening on port 43671
+1649069824978	Marionette	INFO	Listening on port 42003
+1649069825102	Marionette	INFO	Listening on port 36741
+1649069825360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069825360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069825362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069825363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069825368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649069825370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649069985095	Marionette	INFO	Stopped listening on port 39753
+1649069985164	Marionette	INFO	Stopped listening on port 35571
+1649069985230	Marionette	INFO	Stopped listening on port 42003
+1649069985287	Marionette	INFO	Stopped listening on port 43671
+1649069985299	Marionette	INFO	Stopped listening on port 42457
+1649069985393	Marionette	INFO	Stopped listening on port 36741
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649069994823	geckodriver	INFO	Listening on 127.0.0.1:48625
+1649069994827	geckodriver	INFO	Listening on 127.0.0.1:40807
+1649069994829	geckodriver	INFO	Listening on 127.0.0.1:45945
+1649069994830	geckodriver	INFO	Listening on 127.0.0.1:45553
+1649069994843	geckodriver	INFO	Listening on 127.0.0.1:38389
+1649069994843	geckodriver	INFO	Listening on 127.0.0.1:41657
+1649069994917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilePMyJdj"
+1649069994921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQ7HVtz"
+1649069994927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileTMlQ3r"
+1649069994929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilea7wY2p"
+1649069994933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile9Dywhw"
+1649069994933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilec0LKh7"
+1649069994944	geckodriver	INFO	Listening on 127.0.0.1:49509
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649069995965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilegl94EW"
+*** You are running in headless mode.
+1649070000701	Marionette	INFO	Marionette enabled
+1649070000714	Marionette	INFO	Marionette enabled
+1649070000814	Marionette	INFO	Marionette enabled
+1649070000851	Marionette	INFO	Marionette enabled
+1649070000879	Marionette	INFO	Marionette enabled
+1649070000945	Marionette	INFO	Marionette enabled
+1649070001179	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec0LKh7/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ7HVtz/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea7wY2p/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9Dywhw/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTMlQ3r/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegl94EW/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePMyJdj/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1649070012618	Marionette	INFO	Listening on port 46015
+1649070012771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070013014	Marionette	INFO	Listening on port 39397
+1649070013441	Marionette	INFO	Listening on port 46037
+1649070013506	Marionette	INFO	Listening on port 40029
+1649070013579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070013772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070013780	Marionette	INFO	Listening on port 44935
+1649070013864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070013870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070013905	Marionette	INFO	Listening on port 38113
+1649070014254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070014439	Marionette	INFO	Listening on port 35125
+1649070015351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 191: ReferenceError: vehicleGroup is not defined
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+JavaScript error: http://localhost:8080/app.js line 893 > eval, line 375: InternalError: too much recursion
+JavaScript error: http://localhost:8081/static/js/leaflet-src-Geohash.js, line 36: InternalError: too much recursion
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649070418052	Marionette	INFO	Stopped listening on port 35125
+1649070418055	Marionette	INFO	Stopped listening on port 40029
+1649070418078	Marionette	INFO	Stopped listening on port 46037
+1649070418148	Marionette	INFO	Stopped listening on port 39397
+1649070418149	Marionette	INFO	Stopped listening on port 38113
+1649070418174	Marionette	INFO	Stopped listening on port 44935
+1649070418224	Marionette	INFO	Stopped listening on port 46015
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649070434000	geckodriver	INFO	Listening on 127.0.0.1:50805
+1649070434001	geckodriver	INFO	Listening on 127.0.0.1:48603
+1649070434003	geckodriver	INFO	Listening on 127.0.0.1:60629
+1649070434023	geckodriver	INFO	Listening on 127.0.0.1:37249
+1649070434035	geckodriver	INFO	Listening on 127.0.0.1:46701
+1649070434049	geckodriver	INFO	Listening on 127.0.0.1:39489
+1649070434052	geckodriver	INFO	Listening on 127.0.0.1:45253
+1649070434167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileDxtmWs"
+1649070434167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileJD2AGn"
+1649070434167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile9r4SKd"
+1649070434169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXKxPTe"
+1649070434171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileBu5O03"
+1649070434172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileRwvzNz"
+1649070434175	geckodriver	INFO	Listening on 127.0.0.1:34329
+1649070434176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEkBPoK"
+1649070434183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilejOFnqO"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1649070444063	Marionette	INFO	Marionette enabled
+1649070444100	Marionette	INFO	Marionette enabled
+1649070444103	Marionette	INFO	Marionette enabled
+1649070444103	Marionette	INFO	Marionette enabled
+1649070444109	Marionette	INFO	Marionette enabled
+1649070444110	Marionette	INFO	Marionette enabled
+1649070444112	Marionette	INFO	Marionette enabled
+1649070444113	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9r4SKd/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRwvzNz/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJD2AGn/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXKxPTe/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDxtmWs/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBu5O03/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejOFnqO/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEkBPoK/search.json.mozlz4", (void 0)))
+1649070462738	Marionette	INFO	Listening on port 41655
+1649070463221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070463271	Marionette	INFO	Listening on port 40143
+1649070463334	Marionette	INFO	Listening on port 38887
+1649070463374	Marionette	INFO	Listening on port 43155
+1649070463451	Marionette	INFO	Listening on port 45311
+1649070463482	Marionette	INFO	Listening on port 35667
+1649070463497	Marionette	INFO	Listening on port 40357
+1649070463672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070463692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070463735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070463750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070463758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070463826	Marionette	INFO	Listening on port 34295
+1649070463883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649070464241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1649070782347	Marionette	INFO	Stopped listening on port 35667
+1649070782415	Marionette	INFO	Stopped listening on port 40357
+1649070782480	Marionette	INFO	Stopped listening on port 41655
+1649070782515	Marionette	INFO	Stopped listening on port 40143
+1649070782535	Marionette	INFO	Stopped listening on port 43155
+1649070782549	Marionette	INFO	Stopped listening on port 45311
+1649070782595	Marionette	INFO	Stopped listening on port 38887
+1649070782664	Marionette	INFO	Stopped listening on port 34295
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg_OnServerClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg_OnStop) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg_OnServerClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg_OnStop) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

@@ -15,7 +15,7 @@ import {
 } from "../../static/js/trafficContract.js";
 import jointPoints from "../../static/js/joint_points.js";
 
-var web3=Web3();
+var web3
 
 //Map contract
 var mapContract;
@@ -76,7 +76,17 @@ function initData(placeNames) {
     this.placeNames.push(geohashToPalceMapItr.next().value);
   }
 }
-
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == variable) {
+      return pair[1];
+    }
+  }
+  return false;
+}
 export default {
   mapContract,
   web3Map,
@@ -87,6 +97,7 @@ export default {
   placeNames,
   initContract,
   initData,
+   getQueryVariable,
   userID,
   userGeohash,
   userPoint,

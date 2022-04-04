@@ -77,6 +77,11 @@
 			console.log(lon, lat);
 			//通过经纬度画小圈=》点
 			var point = L.circle([lat, lon],10,{color:'#FF0000',fillColor:'#FF0000',fillOpacity:1});
+			point.on("click",(e)=>{
+					console.log(e);
+					console.log(e.target._latlng.lng+"    "+e.target._latlng.lat)
+					console.log(encode_geohash(e.target._latlng.lng,e.target._latlng.lat))
+			})
 			map.addLayer(point);
 
 		});
@@ -89,7 +94,13 @@
 			var lat2 = (dec2[2] + dec2[3]) / 2;			
 
 			var latlngs = [[lat1, lon1], [lat2, lon2]];
-			var polyline = L.polyline(latlngs, {color: 'blue'}).addTo(map);		
+			var polyline = L.polyline(latlngs, {color: 'blue'});
+			polyline.on("click",(e)=>{
+					console.log(e);
+
+					console.log(encode_geohash(e.latlng.lng,e.latlng.lat))
+			});
+			map.addLayer(polyline)		
 		});
 		$("#area").click(function() {
 			var dec = decode_geohash($("#aaa").val());
@@ -102,8 +113,6 @@
 			var latlngs = [[lat1, lon1], [lat1, lon2], [lat2, lon2],[lat2, lon1],[lat1, lon1]];
 			var polyline = L.polyline(latlngs, {color: 'blue'}).addTo(map);		
 		});		
-
-
 	</script>
 </body>
 </html>

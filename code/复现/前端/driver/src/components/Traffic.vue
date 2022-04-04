@@ -4,8 +4,8 @@
       <div class="dache-plan-content">
         <div class="partners-container">
           <div class="partners-wrapper">
-            <ul class="partners" v-show="passengerId !== ''">
-              <li class="partner-item-c">
+            <ul class="partners" v-if="passengerId !== ''">
+              <li class="partner-item">
                 <div>
                   <img
                     src="https://map-mobile-resource.cdn.bcebos.com/icon/rec/taxi/default/feidi_siji%403x1013.png"
@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="btn-container">
-          <div class="button pickup" @click="pickUp()" v-if="!isPickedUp">
+          <div class="button pickup" id="pickupBtn" @click="pickUp()" v-if="!isPickedUp">
             确认接该乘客
           </div>
           <div class="button nopickup" @click="noPickUp()" v-if="!isPickedUp">
@@ -120,7 +120,9 @@ export default {
         trafficContract.methods
           .setVehicleStatusEmpty(vehicleId)
           .send({
-            from: vehicleId,
+                      //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+           // from: vehicleId,
             gas: 500000,
             position: endGeohash,
             txtime: Date.now(),
@@ -129,7 +131,9 @@ export default {
             trafficContract.methods
               .setVehicle(vehicleId, web3Map.utils.asciiToHex(endGeohash))
               .send({
-                from: vehicleId,
+                          //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+               // from: vehicleId,
                 gas: 500000,
                 position: endGeohash,
                 txtime: Date.now(),
@@ -176,7 +180,9 @@ export default {
         trafficContract.methods
           .storeRoutes(0, vehicleId, passengerId, [])
           .send({
-            from: vehicleId,
+                      //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+           // from: vehicleId,
             gas: 8000000,
             position: vehiclePosition,
             txtime: Date.now(),
@@ -225,7 +231,9 @@ export default {
               trafficContract.methods
                 .storeRoutes(costAll, vehicleId, passengerId, astarOriginRoute)
                 .send({
-                  from: vehicleId,
+                            //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+               //   from: vehicleId,
                   gas: 8000000,
                   position: vehiclePosition,
                   txtime: Date.now(),
@@ -289,7 +297,9 @@ export default {
       trafficContract.methods
         .setRejectVehicleStatus(vehicleId, passengerId)
         .send({
-          from: vehicleId,
+                    //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+          //from: vehicleId,
           gas: 5000000000,
           position: vehiclePosition,
           txtime: Date.now(),
@@ -341,7 +351,9 @@ export default {
             trafficContract.methods
               .storeRoutes(costAll, vehicleId, passengerId, astarOriginRoute)
               .send({
-                from: vehicleId,
+                          //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+               // from: vehicleId,
                 gas: 5000000,
                 position: passengerGeohash,
                 txtime: Date.now(),
@@ -378,7 +390,9 @@ export default {
                 // map.addLayer(route);
                 // sleep(200);
               }
-              setTimeout(doit2(astarRoute[p], astarRoute[q]), 0);
+              if (astarRoute[p] && astarRoute[q]) {
+                setTimeout(doit2(astarRoute[p], astarRoute[q]), 0);
+              }
               draw2(p + 1, q + 1);
             }
             draw2(0, 1);
@@ -395,7 +409,7 @@ export default {
     },
     clear: function () {
       var map = global_.map;
-
+      global_.userGeohash=this.endGeohash;
       if (this.startPoint) map.removeLayer(this.startPoint);
       if (this.endPoint) map.removeLayer(this.endPoint);
       if (global_.userPoint) map.removeLayer(global_.userPoint);

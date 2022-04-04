@@ -33,6 +33,19 @@ export default {
       usrID: global_.userID,
     };
   },
+  mounted(){
+        if(global_.getQueryVariable("id")){
+        this.usrID=global_.getQueryVariable("id");
+        global_.userID=this.usrID;
+        console.log("user id ="+this.usrID);
+    }
+    if(global_.getQueryVariable("place")){
+        global_.userGeohash=global_.getQueryVariable("place");
+    }
+    if(global_.userGeohash&&global_.userID){
+      this.login();
+    }
+  },
   methods: {
     inputID: function () {
       this.isLoginInput = !this.isLoginInput;
@@ -83,7 +96,9 @@ export default {
       await trafficContract.methods
         .initVehicle(vehicleId, web3Map.utils.asciiToHex(vehiclePosition))
         .send({
-          from: vehicleId,
+                    //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+         // from: vehicleId,
           gas: 5000000,
           position: vehiclePosition,
           txtime: Date.now(),
@@ -98,7 +113,9 @@ export default {
       await trafficContract.methods
         .deleteVehicle(vehicleId)
         .send({
-          from: vehicleId,
+                    //debug:changeID
+          from:"0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+          //from: vehicleId,
           gas: 5000000,
           position: "w3511111111111",
           txtime: Date.now(),

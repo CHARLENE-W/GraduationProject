@@ -4,7 +4,7 @@
       <div class="dache-plan-content">
         <div class="partners-container">
           <div class="partners-wrapper">
-            <div class="msg" v-if="!isFind">正在为您寻找车辆....</div>
+            <div class="msg" v-if="!isFind">{{ Msg }}</div>
             <ul class="partners" v-if="isFind">
               <li class="partner-item-c">
                 <div>
@@ -24,8 +24,28 @@
             </ul>
           </div>
         </div>
-        <button class="button" @click="pay" v-if="isboard">{{ Msg }}</button>
-        <button class="button" @click="start" v-if="!isboard">{{ Msg }}</button>
+        <button class="button" v-if="!isFind">请等待..</button>
+        <button class="button" v-if="isFind && !isArriveStart">
+          请等待车辆到达出发地...
+        </button>
+        <button
+          class="button"
+          id="startBtn"
+          @click="start"
+          v-if="!isboard && isArriveStart"
+        >
+          点击确认上车
+        </button>
+        <button class="button" v-if="isboard && !isArriveEnd">请等待..</button>
+        <button
+          class="button"
+          id="payBtn"
+          @click="pay"
+          v-if="isArriveEnd && !isPay"
+        >
+          点击支付
+        </button>
+        <button class="button" v-if="isPay">支付成功</button>
         <!---->
       </div>
       <!----><!---->
@@ -42,11 +62,13 @@ export default {
     return {
       isClicked: true,
       isFind: false,
+      isPay: false,
       vehicleId: "",
       vehicleGeohash: "",
       vehiclePlace: "等待车辆接单...",
-      Msg: "正在为您调度车辆，请等待...",
-      isArrive: false,
+      Msg: "正在为您调度车辆,请稍等...",
+      isArriveStart: false,
+      isArriveEnd: false,
       costAll: NaN,
       isboard: false,
       positionPoint: null,
@@ -96,6 +118,7 @@ export default {
               }
             }
             astarRoute.reverse();
+
             console.log("astar: ", astarRoute);
             //add route point to map
             var isboard = this.isboard;
@@ -119,24 +142,27 @@ export default {
                 // map.addLayer(route)
                 // sleep(100)
               }
-              setTimeout(doit2(astarRoute[p], astarRoute[q], isboard), 0);
+              if (astarRoute[p] && astarRoute[q]) {
+                setTimeout(doit2(astarRoute[p], astarRoute[q], isboard), 0);
+              }
+
               draw2(p + 1, q + 1);
             }
             draw2(0, 1);
+
             if (this.isboard == false) {
+              this.isArriveStart = true;
               this.vehicleGroup = L.layerGroup(vehicleLayers);
               global_.map.addLayer(this.vehicleGroup);
             } else {
+              this.isArriveEnd = true;
               this.togetherGroup = L.layerGroup(togetherLayers);
               global_.map.addLayer(this.togetherGroup);
             }
           });
         if (this.isboard == false) {
-          this.Msg = "车辆已到达出发点,点击确认上车";
           this.isClicked = false;
         } else {
-          // $("#vehicleEvent").val("乘客到达目的地");
-          this.Msg = "车辆已到达目的地,点击支付";
           this.isClicked = false;
         }
       }
@@ -170,7 +196,9 @@ export default {
       trafficContract.methods
         .initPassenger(passengerId, web3Map.utils.asciiToHex(passengerStart))
         .send({
-          from: passengerId,
+          //debug:changeID
+          from: "0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+          //from: passengerId,
           gas: 500000,
           position: "w3511111111111",
           txtime: 278000,
@@ -186,7 +214,9 @@ export default {
           web3Map.utils.asciiToHex(passengerEnd)
         )
         .send({
-          from: passengerId,
+          //debug:changeID
+          from: "0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+          //from: passengerId,
           gas: 5000000,
           position: "w3511111111111",
           txtime: 278000,
@@ -230,7 +260,9 @@ export default {
                 web3Map.utils.asciiToHex(positionGeohash)
               )
               .send({
-                from: passengerId,
+                //debug:changeID
+                from: "0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+                // from: passengerId,
                 gas: 5000000,
                 position: "w3511111111111",
                 txtime: 278000,
@@ -243,7 +275,7 @@ export default {
                   //     $("#vehicleEvent").val("车辆选择成功");
                   console.log("车辆选择成功");
                   console.log("getVehicle:", result1);
-                  this.Msg = "等待车辆到达上车点...";
+
                   var vehiclePosition = web3Map.utils
                     .hexToAscii(result1[0])
                     .slice(0, 11);
@@ -269,8 +301,8 @@ export default {
                   if (count < 10) {
                     //    $("#vehicleEvent").val("调度车辆中");
                     console.log("调度车辆中");
-                    (this.Msg = "正在为您调度车辆，请等待..."),
-                      this.getVehicle(positionGeohash);
+
+                    this.getVehicle(positionGeohash);
                   } else {
                     //       $("#vehicleEvent").val("当前没有合适的车辆");
                     console.log("当前没有合适的车辆");
@@ -288,6 +320,7 @@ export default {
               this.getVehicle(positionGeohash);
             } else {
               console.log("当前没有合适的车辆");
+              this.Msg = "当前没有合适的车辆";
               count = 0;
             }
           }
@@ -315,11 +348,12 @@ export default {
         costAll = 111;
         console.log("error :cosatAll doesn't exit");
       }
-      //	$("#vehicleEvent").val("开始支付订单");
       console.log("开始支付订单");
       web3Traffic.eth
         .sendTransaction({
-          from: passengerId,
+          //debug:changeID
+          from: "0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+          // from: passengerId,
           to: vehicleId,
           value: 50000000 * costAll,
           position: "w3511111111111",
@@ -329,15 +363,16 @@ export default {
           trafficContract.methods
             .confirmPay(vehicleId)
             .send({
-              from: passengerId,
+              //debug:changeID
+              from: "0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+              //  from: passengerId,
               gas: 5000000,
               position: "w3511111111111",
               txtime: 278000,
             })
             .then((result) => {
-              this.Msg = "已支付";
               console.log("乘客支付了订单");
-              this.isboard = false;
+              this.isPay = true;
               this.clear();
             });
         });
@@ -351,7 +386,9 @@ export default {
       trafficContract.methods
         .confirmBoard(vehicleId)
         .send({
-          from: passengerId,
+          //debug:changeID
+          from: "0x5fc70db756974342f9eb493e6b2ddbe16fbee93e",
+          //from: passengerId,
           gas: 5000000,
           position: "w3511111111111",
           txtime: 278000,
@@ -359,7 +396,6 @@ export default {
         .then((result) => {
           // $("#vehicleEvent").val("乘客确认上车");
           this.isboard = true;
-          this.Msg = "乘客已确认上车";
           console.log("乘客确认上车");
         });
     },
@@ -407,7 +443,6 @@ export default {
           color: "#00CCFF",
         });
         global_.map.addLayer(global_.startPoint);
-
       });
       global_.map.addLayer(global_.nearestPoint);
 
@@ -423,9 +458,13 @@ export default {
       this.isEnd = true;
       this.isboard = false;
       this.isClicked = false;
+      this.isArriveStart = false;
+      this.isArriveEnd = false;
+      this.isFind = false;
+      this.isPay = false;
       this.vehiclePlace = "等待车辆接单...";
       this.Msg = "正在为您调度车辆，请等待...";
-      
+
       this.$emit("clear", 0);
     },
     getVehicleStatus: async function (vehicleId) {

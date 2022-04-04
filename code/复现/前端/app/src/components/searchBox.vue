@@ -13,7 +13,7 @@
     ></search-dst>
     <div
       class="searchbox-main"
-      v-if="!isManaging && !isSearchDst && !isSearchStart"
+      v-show="!isManaging && !isSearchDst && !isSearchStart"
     >
       <div class="searchbox-container">
         <div class="start">
@@ -42,8 +42,9 @@
         <input
           class="button"
           type="button"
+          id="startManageVehicle"
           @click="manageVehicle"
-          v-show="isStartManaging && !isManaging"
+          v-if="isStartManaging && !isManaging"
           value="开始调度车辆"
         />
         <div class="dots">
@@ -79,6 +80,18 @@ export default {
     searchDst,
     Traffic,
   },
+  mounted(){
+    if(global_.getQueryVariable("start")){
+        global_.startGeohash=global_.getQueryVariable("start");    
+    }
+        if(global_.getQueryVariable("end")){
+        global_.dstGeohash=global_.getQueryVariable("end");
+    }
+    if(global_.dstGeohash&&global_.startGeohash){
+      this.isStartManaging=true;
+    }
+
+  },
   methods: {
     searchStart: function () {
       console.log("search start");
@@ -90,7 +103,6 @@ export default {
     },
     changeDst: function (params) {
       this.isSearchDst = false;
-      console.log("??:" + params);
       this.dstPlace = params;
       if (this.startPlace !== "") {
         this.isStartManaging = true;
@@ -101,7 +113,6 @@ export default {
 
     changeStart: function (params) {
       this.isSearchStart = false;
-      console.log("??:" + params);
       this.startPlace = params;
       if (this.dstPlace !== "") {
         this.isStartManaging = true;
@@ -112,12 +123,10 @@ export default {
     manageVehicle: function () {
       if (!this.isClicked) {
         this.isClicked=true;
-        if (this.startPlace !== "" && this.dstPlace !== "") {
           this.$refs.myTraffic.initPassenger().then(() => {
             this.$refs.myTraffic.manageVehicle();
             this.isManaging = true;
           });
-        }
       }
     },
     clear: function () {

@@ -1,0 +1,18 @@
+=============== Apr 4, 2022 (CST) ===============
+13:49:26.463266 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:49:26.583453 db@open opening
+13:49:26.597854 version@stat F·[] S·0B[] Sc·[]
+13:49:26.684720 db@janitor F·2 G·0
+13:49:26.684795 db@open done T·101.272763ms
+=============== Apr 4, 2022 (CST) ===============
+13:50:34.807218 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:50:34.807568 version@stat F·[] S·0B[] Sc·[]
+13:50:34.807627 db@open opening
+13:50:34.807716 journal@recovery F·1
+13:50:34.812431 journal@recovery recovering @1
+13:50:34.943158 memdb@flush created L0@2 N·21262 S·2MiB "\x00\x04x..\xa0R\u007f,v12202":"\xff\xf65..\x80\xdb\xdb,v10345"
+13:50:34.956396 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+13:50:35.068501 db@janitor F·3 G·0
+13:50:35.068591 db@open done T·260.937132ms
+13:50:44.844189 db@close closing
+13:50:44.844432 db@close done T·234.818µs

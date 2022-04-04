@@ -21,16 +21,6 @@ export default {
       //  getRoads("wx4er");
     this.initMap();
     this.genMap();
-    if(global_.startGeohash){
-      if(global_.startPoint) global_.map.removeLayer(global_.startPoint)
-      global_.startPoint= this.genCircle(global_.startGeohash,20,"#2894FF")
-      global_.startPoint.addTo(global_.map)
-    }
-    if(global_.dstGeohash){
-          if(global_.dstPoint) global_.map.removeLayer(global_.dstPoint)
-      global_.dstPoint= this.genCircle(global_.dstGeohash,20,"#FF8040")
-      global_.dstPoint.addTo(global_.map)
-    }
   },
 computed:{
           getNearset(){
