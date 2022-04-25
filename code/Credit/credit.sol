@@ -1,7 +1,6 @@
 pragma solidity ^0.5.16;
 
 contract Contract {
-    uint total;
     
     // 事件衰减系数
     int delta_rev = 5;
@@ -10,15 +9,11 @@ contract Contract {
     int theta_s = 2;
     int theta_f = -3;
 
-    int c0 = 5;
-    int alpha = 2;
-    int beta = -3;
-
+    //位置验证系数
     int sigma1=5 ;
+    //主观评价系数
     int sigma2=5 ;
 
-
-    
     struct user{
         string uuid;
         int num;
@@ -41,6 +36,7 @@ contract Contract {
         int takeNum;
         int rejectNum;
         int totalNum;
+        int gamma;
 
         //主观评价；
         int devaluation;
@@ -66,7 +62,7 @@ contract Contract {
             users[uuid].takeNum=0;
             users[uuid].rejectNum=0;
             users[uuid].totalNum=0;
-
+            users[uuid].gamma=1;
             users[uuid].devaluation=0;
     }
     
@@ -99,9 +95,7 @@ contract Contract {
 			interval = time - lastTime + 3;
 		}
 		users[uuid].interval = interval;
-		//if(interval < 5) {
-			//interval = 5;
-		//}
+
 		// result
 		int validNum = users[uuid].validNum;
 		if(validNum == 0) {
@@ -137,7 +131,8 @@ contract Contract {
 		dquality = divide(dquality, 100*interval);
 		users[uuid].dquality = dquality;
         users[uuid].credit=users[uuid].credit+divide(sigma1*dquality,10);
-		
+		if(users[uuid].credit>=100) users[uuid].credit=100;
+        if(users[uuid].credit<=0) users[uuid].credit=0;
     }
     
     function clear(string memory uuid) public {
@@ -168,11 +163,11 @@ contract Contract {
         return (users[uuid].interval, users[uuid].validNum, users[uuid].successValid, users[uuid].failValid);
     }
 
-    function getOrder(string memory uuid) public view returns(int,int,int){
+    function getOrder(string memory uuid) public view returns(int,int,int,int){
         if(users[uuid].status==0){
-            return (-1,-1,-1);
+            return (-1,-1,-1,-1);
         }else{
-            return (users[uuid].totalNum,users[uuid].takeNum,users[uuid].rejectNum);
+            return (users[uuid].totalNum,users[uuid].takeNum,users[uuid].rejectNum,users[uuid].gamma);
         }
     }
 
@@ -187,18 +182,18 @@ contract Contract {
             users[uuid].rejectNum=rejectNum;
         }
         users[uuid].totalNum=users[uuid].totalNum+1;
+        users[uuid].gamma=divide(users[uuid].takeNum*100,users[uuid].totalNum);
     }
     function revalueByEvaluate(string memory uuid,int I) public{
-        int totalNum=users[uuid].totalNum;
-        int takeNum=users[uuid].takeNum;
-        int gamma;
-        if(totalNum!=0)
-            gamma=divide(takeNum*100,totalNum);
-        else  gamma=100;
+        int gamma=users[uuid].gamma;
+        
         int devaluation=divide( gamma*I,100);
         users[uuid].devaluation=devaluation;
         users[uuid].credit=users[uuid].credit+divide(sigma2*devaluation,10);
+        if(users[uuid].credit>=100) users[uuid].credit=100;
+        if(users[uuid].credit<=0) users[uuid].credit=0;
     }
 
 
 }
+
