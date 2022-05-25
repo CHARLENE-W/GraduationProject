@@ -1,12 +1,15 @@
 import json
 import csv
+import sys
+reload(sys)
+sys.setdefaultencoding( "utf-8" )
 #tartget:    json  ==>   scsv
 #env:            Python 2.7.17
 
 def csv_json():
     # 1. read file
-    json_fp = open("vehicleTimeInfo.json", "r")
-    csv_fp = open("vehicleTimeInfo.csv", "w")
+    json_fp = open("res.json", "r")
+    csv_fp = open("res.csv", "w")
 
     # 2.get title
     data_list = json.load(json_fp)
