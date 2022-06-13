@@ -11,3 +11,7 @@
 性能测试包含JMeter测试和脚本测试两类
 ## 4.credit
 信誉评估算法相关代码
+
+# 补充文档
+其余文档在Notion中，共享链接：https://little-grouse-686.notion.site/58e78d44a4174012981dd483a42fcb45
+主要包含环境搭建文档和算法设计文档等
