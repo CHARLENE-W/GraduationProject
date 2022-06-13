@@ -21,96 +21,6 @@ JsonObject=[
 		"type": "function"
 	},
 	{
-		"constant": false,
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "uuid",
-				"type": "string"
-			},
-			{
-				"internalType": "int256",
-				"name": "lastTime",
-				"type": "int256"
-			}
-		],
-		"name": "initUser",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "uuid",
-				"type": "string"
-			},
-			{
-				"internalType": "int256",
-				"name": "I",
-				"type": "int256"
-			}
-		],
-		"name": "revalueByEvaluate",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "uuid",
-				"type": "string"
-			},
-			{
-				"internalType": "bool",
-				"name": "result",
-				"type": "bool"
-			}
-		],
-		"name": "revalueByOrder",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "uuid",
-				"type": "string"
-			},
-			{
-				"internalType": "int256",
-				"name": "time",
-				"type": "int256"
-			},
-			{
-				"internalType": "bool",
-				"name": "result",
-				"type": "bool"
-			},
-			{
-				"internalType": "bool",
-				"name": "isTest",
-				"type": "bool"
-			}
-		],
-		"name": "revalueByValidation",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"constant": true,
 		"inputs": [
 			{
@@ -227,6 +137,96 @@ JsonObject=[
 		],
 		"payable": false,
 		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "uuid",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "lastTime",
+				"type": "int256"
+			}
+		],
+		"name": "initUser",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "uuid",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "I",
+				"type": "int256"
+			}
+		],
+		"name": "revalueByEvaluate",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "uuid",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "result",
+				"type": "bool"
+			}
+		],
+		"name": "revalueByOrder",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "uuid",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "time",
+				"type": "int256"
+			},
+			{
+				"internalType": "bool",
+				"name": "result",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "isTest",
+				"type": "bool"
+			}
+		],
+		"name": "revalueByValidation",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
 		"type": "function"
 	}
 ]
